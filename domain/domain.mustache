@@ -5,7 +5,7 @@
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-        <Directory {{{target}}}>
+        <Directory {{{target}}}/>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
